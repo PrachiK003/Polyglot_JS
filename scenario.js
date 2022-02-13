@@ -48,4 +48,45 @@ var scenarios = [
       }
     ]
   },
+   {
+    hackerCard : {
+      description : "i had spied on you to get your password and hacked the account.",
+      power : 3,
+    },
+    playerCards : [
+      {
+        description : "i have deleted that account",
+        power : 2,
+      },
+      {
+        description : "i have set different passwords for different accounts",
+        power : 4,
+      },
+      {
+        description : "i have changed my password for every account",
+        power : 1,
+      }
+    ]
+   },
+     {
+    hackerCard : {
+      description : "i will steal your data and track your activities usimg malware",
+      power : 3,
+    },
+    playerCards : [
+      {
+        description : "i have a legitimate anti-virus software.",
+        power : 4,
+      },
+      {
+        description : "i never download any fake software.",
+        power : 5,
+      },
+      {
+        description : "sometimes i click on the fake antivirus pop ups that are generated from websites.",
+        power : 1,
+      }
+    ]
+     
+  },
 ];
